@@ -11,8 +11,7 @@ public:
         }
 
         for(auto x : umap){
-            vector<string> tem = x.second;  // push sort string value
-            res.push_back(tem);
+            res.push_back(x.second); // push sort string value(string) in res
         }
         return res;
 
